@@ -1,0 +1,108 @@
+article {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    margin: 5vw;
+    margin-top: 20px;
+    border-radius: 2vw;
+    border: solid rgba(0, 0, 255, 0.274);
+    backdrop-filter: blur(5px);
+    background-color: rgba(182, 182, 182, 0.2);
+}
+
+article h1 {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    text-decoration: underline rgb(255, 255, 255);
+}
+
+article p {
+    font-size: large;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.competence {
+    display: flex;
+    flex-direction: column;
+}
+
+.competence>p {
+    margin: 0px;
+    margin-top: 3vh;
+}
+
+.competence>ul>li {
+    font-size: 20px;
+    text-decoration: underline rgb(255, 255, 255);
+}
+
+.projet {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 2vw;
+}
+
+article div img {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+}
+
+
+.buttonRetour {
+    display: flex;
+    justify-content: center;
+}
+
+.buttonRetour>a {
+    margin: 0px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.buttonRetour>a>button {
+    width: 100%;
+    margin: 0px;
+    right: 100px;
+}
+
+
+@media (max-width: 1719px) {
+    .projet>img {
+        max-width: 40vw;
+    }
+
+}
+
+@media (max-width: 784px) {
+    .tout {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+    .projet {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5vw;
+    }
+
+    .projet>img {
+        max-width: 70vw;
+    }
+    .competence>ul>li {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 850px) {
+    .projet {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,87 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  backdrop-filter: blur(15px);
+  background-color: rgba(182, 182, 182, 0.2);
+  color: white;
+}
+
+.tout{
+  margin-top: 2vw;
+}
+
+.tout > p{
+  margin-top: 4vw;
+  margin-bottom: 2vw;
+  text-align: center;
+}
+
+.Coordonés, .aPropos {
+  width: 70%;
+  font-size: 100%;
+}
+
+article{
+ margin: 10%;
+}
+
+img{
+  max-width: 3vw;
+}
+
+.logiciel{
+  width: 100%;
+}
+
+.L1{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.L2{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+footer{
+  position: fixed;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+
+@media (max-width: 950px) {
+  .Coordonés, .aPropos {
+    width: 90%;
+    font-size: 3vw;
+  }
+  img{
+    max-width: 6vw;
+  }
+
+}
+
+@media (max-width: 550px) {
+  .Coordonés, .aPropos {
+    width: 90%;
+    font-size: 4vw;
+  }
+  img{
+    max-width: 8vw;
+  }
+}
