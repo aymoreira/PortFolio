@@ -67,6 +67,10 @@ body{
     margin: 3vw;
   }
 
+  p{
+    margin: 0px;
+  }
+
 
   @media (max-width: 534px) {
     .container{

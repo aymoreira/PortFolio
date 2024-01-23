@@ -1,6 +1,14 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 .Ligne {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
 }
 
 .feuille {
@@ -50,15 +58,6 @@
     padding-top: 1vh;
     padding-bottom: 1vh;
     margin-bottom: 1vh;
-}
-
-footer {
-    position: absolute;
-    width: 100%;
-    height: 50px;
-    bottom: 5%;
-    left: 0;
-    right: 0;
 }
 
 
