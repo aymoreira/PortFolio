@@ -1,20 +1,30 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
 article {
     color: rgb(255, 255, 255);
     background-color: transparent;
     display: flex;
     flex-direction: column;
-    margin: 5vw;
-    margin-top: 20px;
+    margin-right: 5vw;
+    margin-left: 5vw;
+    margin-top: 2.5vw;
     border-radius: 2vw;
     border: solid rgba(0, 0, 255, 0.274);
     backdrop-filter: blur(5px);
     background-color: rgba(182, 182, 182, 0.2);
+    height: 60vh;
 }
 
-article h1 {
+h1 {
     margin-left: 5vw;
     margin-right: 5vw;
+    padding-top: 2vw;
     text-decoration: underline rgb(255, 255, 255);
+    height: 5vh;
 }
 
 article p {
@@ -22,6 +32,7 @@ article p {
     margin-left: 5vw;
     margin-right: 5vw;
 }
+
 
 .competence {
     display: flex;
@@ -49,9 +60,18 @@ article p {
 article div img {
     display: flex;
     justify-content: center;
-    width: 30%;
+    width: 60vh;
 }
 
+.titre{
+    height: 15vh;
+}
+.text{
+    height: 35vh;
+}
+.projet{
+    height: 40vh;
+}
 
 .buttonRetour {
     display: flex;

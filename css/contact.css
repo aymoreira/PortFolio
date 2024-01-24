@@ -23,19 +23,34 @@ body {
 
 .Coordonés, .aPropos {
   width: 70%;
+  height: 5vh;
   font-size: 100%;
 }
 
 article{
  margin: 10%;
+ height: 60vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 img{
-  max-width: 3vw;
+  max-width: 4vw;
+  border-radius: 14px;
 }
 
 .logiciel{
   width: 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.logiciel > div > div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .L1{
